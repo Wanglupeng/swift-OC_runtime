@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2325280720255A430017C149 /* UIButton_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325280620255A430017C149 /* UIButton_Extension.swift */; };
+		2325280A20255BD00017C149 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325280920255BD00017C149 /* Tools.m */; };
+		2325280C202588990017C149 /* swiftCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325280B202588990017C149 /* swiftCat.swift */; };
 		23844D852023F25C0078BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23844D842023F25C0078BBC1 /* AppDelegate.swift */; };
 		23844D872023F25C0078BBC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23844D862023F25C0078BBC1 /* ViewController.swift */; };
 		23844D8A2023F25C0078BBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23844D882023F25C0078BBC1 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		23844D8F2023F25C0078BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23844D8D2023F25C0078BBC1 /* LaunchScreen.storyboard */; };
 		23844D9A2023F25C0078BBC1 /* Swift_RuntimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23844D992023F25C0078BBC1 /* Swift_RuntimeTests.swift */; };
 		23844DA52023F25C0078BBC1 /* Swift_RuntimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23844DA42023F25C0078BBC1 /* Swift_RuntimeUITests.swift */; };
+		23844DB82023FDF90078BBC1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 23844DB72023FDF90078BBC1 /* Person.m */; };
+		23844DBB202438130078BBC1 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 23844DBA202438130078BBC1 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2325280620255A430017C149 /* UIButton_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_Extension.swift; sourceTree = "<group>"; };
+		2325280820255BD00017C149 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		2325280920255BD00017C149 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		2325280B202588990017C149 /* swiftCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftCat.swift; sourceTree = "<group>"; };
 		23844D812023F25C0078BBC1 /* Swift_Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23844D842023F25C0078BBC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23844D862023F25C0078BBC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		23844DA02023F25C0078BBC1 /* Swift_RuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_RuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23844DA42023F25C0078BBC1 /* Swift_RuntimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RuntimeUITests.swift; sourceTree = "<group>"; };
 		23844DA62023F25C0078BBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23844DB22023FCDC0078BBC1 /* Swift_Runtime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift_Runtime-Bridging-Header.h"; sourceTree = "<group>"; };
+		23844DB62023FDF90078BBC1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		23844DB72023FDF90078BBC1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		23844DB9202438130078BBC1 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		23844DBA202438130078BBC1 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,15 @@
 				23844D8B2023F25C0078BBC1 /* Assets.xcassets */,
 				23844D8D2023F25C0078BBC1 /* LaunchScreen.storyboard */,
 				23844D902023F25C0078BBC1 /* Info.plist */,
+				23844DB22023FCDC0078BBC1 /* Swift_Runtime-Bridging-Header.h */,
+				23844DB62023FDF90078BBC1 /* Person.h */,
+				23844DB72023FDF90078BBC1 /* Person.m */,
+				23844DB9202438130078BBC1 /* Cat.h */,
+				23844DBA202438130078BBC1 /* Cat.m */,
+				2325280B202588990017C149 /* swiftCat.swift */,
+				2325280620255A430017C149 /* UIButton_Extension.swift */,
+				2325280820255BD00017C149 /* Tools.h */,
+				2325280920255BD00017C149 /* Tools.m */,
 			);
 			path = Swift_Runtime;
 			sourceTree = "<group>";
@@ -193,6 +216,7 @@
 				TargetAttributes = {
 					23844D802023F25B0078BBC1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					23844D942023F25C0078BBC1 = {
@@ -259,7 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23844DBB202438130078BBC1 /* Cat.m in Sources */,
+				23844DB82023FDF90078BBC1 /* Person.m in Sources */,
 				23844D872023F25C0078BBC1 /* ViewController.swift in Sources */,
+				2325280C202588990017C149 /* swiftCat.swift in Sources */,
+				2325280A20255BD00017C149 /* Tools.m in Sources */,
+				2325280720255A430017C149 /* UIButton_Extension.swift in Sources */,
 				23844D852023F25C0078BBC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Swift_Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aizhan.Swift-Runtime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift_Runtime/Swift_Runtime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Swift_Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aizhan.Swift-Runtime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift_Runtime/Swift_Runtime-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
